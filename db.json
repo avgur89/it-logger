@@ -1,15 +1,37 @@
 {
-  "logs": [],
-  "techs": [
+  "logs": [
     {
       "id": 1,
-      "firstName": "Sam",
-      "lastName": "Smith"
+      "message": "test log 2",
+      "tech": "John Doe",
+      "attension": false,
+      "date": "2020-04-08T10:21:25.091Z"
     },
     {
       "id": 2,
-      "firstName": "John",
-      "lastName": "Doe"
+      "message": "new log",
+      "tech": "Sam Smith",
+      "attension": true,
+      "date": "2020-04-08T10:18:46.702Z"
+    },
+    {
+      "id": 3,
+      "message": "New tester",
+      "tech": "Denis Gurov",
+      "attension": true,
+      "date": "2020-04-08T12:17:35.106Z"
+    }
+  ],
+  "techs": [
+    {
+      "firstName": "Rita",
+      "lastName": "Skorobohach",
+      "id": 4
+    },
+    {
+      "firstName": "Denis",
+      "lastName": "Gurov",
+      "id": 5
     }
   ]
 }
